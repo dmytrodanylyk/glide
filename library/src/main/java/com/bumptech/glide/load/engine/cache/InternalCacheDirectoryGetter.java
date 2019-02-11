@@ -12,7 +12,7 @@ import java.io.File;
 public class InternalCacheDirectoryGetter implements CacheDirectoryGetter {
 
     private final Context context;
-    private String diskCacheName;
+    private final String diskCacheName;
 
     InternalCacheDirectoryGetter(Context context, String diskCacheName) {
         this.context = context;
